@@ -1,0 +1,36 @@
+= Kafka Streams
+:numbered:
+:toc: preamble
+:toc-title: Table of contents
+
+App will transform in the future words to upper case letters, multiply positive numbers by a number given on command line and add “negative number: “ prefix to negative numbers.
+
+== Dependencies
+
+You are going to need the following:
+
+* Java 8+
+* Scala 2.13+
+
+Also add to build.sbt below because we're using Kafka Streams, scopt
+
+* libraryDependencies += "org.apache.kafka" % "kafka-streams" % "3.1.0" % "provided"
+* libraryDependencies += "com.github.scopt" %% "scopt" % "4.0.1"
+
+== How to run
+
+*FIXME*
+
+== Example of usage
+
+*FIXME*
+
+Start zookeeper bin/zookeeper-server-start.bat config/zookeeper.properties
+
+Start kafka bin/kafka-server-start.bat config/server.properties
+
+Depending on operation you'd like to make, please refer to `input1/output1` or `input2/output2` topics.
+
+== Troubleshooting
+
+*FIXME*
